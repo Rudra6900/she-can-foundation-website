@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>She Can Foundation | Empowering Women. Enabling Careers.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">SheCan<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-tab active" data-page="home">Home</a></li>
+                <li><a href="#about" class="nav-tab" data-page="about">About Us</a></li>
+                <li><a href="#programs" class="nav-tab" data-page="programs">Our Focus</a></li>
+                <li><a href="#volunteer" class="btn-nav nav-tab" data-page="volunteer">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home-page" class="page-view active">
+            <div class="hero-section">
+                <div class="hero-content animate-fade-up">
+                    <span class="badge">DRIVING SOCIAL CHANGE</span>
+                    <h1>Empowering Women.<br>Enabling Careers.<br><span class="gradient-text">Creating Change.</span></h1>
+                    <p>At She Can Foundation, we focus on building a stronger future for underprivileged women through specialized skill training, career development, and direct livelihood upliftment.</p>
+                    <div class="hero-btns">
+                        <a href="#volunteer" class="btn-primary trigger-tab" data-target="volunteer">Apply For Internships</a>
+                        <a href="#programs" class="btn-secondary trigger-tab" data-target="programs">Explore Programs</a>
+                    </div>
+                </div>
+                <div class="hero-image-pro animate-fade-in">
+                    <img src="image01.jpg" alt="She Can Foundation Pro Workspace Empowerment Illustration">
+                </div>
+            </div>
+
+            <div class="impact-banner">
+                <div class="counter-box">
+                    <h2 class="counter" data-target="15000">0</h2>
+                    <p>Profiles Processed</p>
+                </div>
+                <div class="counter-box">
+                    <h2 class="counter" data-target="6200">0</h2>
+                    <p>Careers Facilitated</p>
+                </div>
+                <div class="counter-box">
+                    <h2 class="counter" data-target="75">0</h2>
+                    <p>Active Hiring Partners</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-page" class="page-view hidden">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About She Can Foundation</h2>
+                    <p>A dedicated creative workspace for aspiring young women from marginalized backgrounds.</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card glass interactive-hover">
+                        <div class="icon-placeholder">🩷</div>
+                        <h3>Together, She Can.</h3>
+                        <p>We are intentionally designed to break traditional boundaries. We provide an ecosystem where students and women can learn, apply for active careers, and find opportunities without any fear of rejection or unrealistic expectations.</p>
+                    </div>
+                    <div class="about-card glass interactive-hover">
+                        <div class="icon-placeholder">🌍</div>
+                        <h3>Livelihood Upliftment</h3>
+                        <p>By connecting rural and urban talents straight to structured workflows, we establish full financial independence and security tracks for families across marginalized communities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs-page" class="page-view hidden">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Core Focus Areas</h2>
+                    <p>How we execute empowerment arrays daily across India.</p>
+                    <div class="underline"></div>
+                </div>
+                <div class="programs-grid">
+                    <div class="program-item glassimate glass-hover animate-hover-effect">
+                        <div class="icon-placeholder">💻</div>
+                        <h3>Skill-based Internships</h3>
+                        <p>Providing verified Work-from-Home (WFH) opportunities and practical industrial training tailored for modern corporate ecosystems.</p>
+                    </div>
+                    <div class="program-item glassimate glass-hover animate-hover-effect">
+                        <div class="icon-placeholder">🎓</div>
+                        <h3>Women-Centric Learning</h3>
+                        <p>Curating personalized digital literacy programs, language modules, and modern functional software skill training tracks.</p>
+                    </div>
+                    <div class="program-item glassimate glass-hover animate-hover-effect">
+                        <div class="icon-placeholder">🩺</div>
+                        <h3>Health & Education Support</h3>
+                        <p>Comprehensive grassroots funding and counseling frameworks targeting primary healthcare rights and higher educational access.</p>
+                    </div>
+                    <div class="program-item glassimate glass-hover animate-hover-effect">
+                        <div class="icon-placeholder">💼</div>
+                        <h3>Career Development</h3>
+                        <p>Mentorship programs designed specifically to build profiles, interview confidence, and tech skills for women from marginalized networks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="volunteer-page" class="page-view hidden">
+            <div class="form-wrapper">
+                <div class="form-container pro-form glass-card">
+                    <h2>Join the Impact Array</h2>
+                    <p>Submit your details to enter our screening and onboarding evaluation channel.</p>
+                    <form id="proJoinForm">
+                        <div class="input-group">
+                            <input type="text" id="vName" required placeholder="Your Name">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="vEmail" required placeholder="Email Address">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="vPhone" required placeholder="10-Digit WhatsApp Number">
+                        </div>
+                        <div class="input-group">
+                            <select id="vRole" required>
+                                <option value="" disabled selected>Select Prefered Stream</option>
+                                <option value="wfh">Work-from-Home Internships</option>
+                                <option value="digital">Digital Training Programs</option>
+                                <option value="mentor">Become a Student Volunteer</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-submit">Dispatch Application 🩷</button>
+                    </form>
+                    <div id="proFeedback" class="hidden-msg"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-content container-footer">
+        <div class="footer-info">
+            <p>&copy; 2026 She Can Foundation. All Rights Reserved.</p>
+            <p class="footer-ref">Official Website: <a href="http://www.shecanfoundation.org" target="_blank">www.shecanfoundation.org</a></p>
+        </div>
+        <div class="footer-links">
+            <a href="https://linkedin.com/company/shecanfoundation" target="_blank" class="social-link">Connect on LinkedIn 💼</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
